@@ -9,15 +9,7 @@ package javaapplication6;
  *
  * @author andre
  */
-public class JavaApplication6 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
-        System.out.println("Teste");
-    }
-    
+public class Pessoa {
+    private int id;
+    private String nome;
 }
