@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication6;
+package Modelo;
 
 /**
  *
  * @author andre
  */
-public class Pessoa {
-    private int id;
-    private String nome;
+public class Admin {
+    
 }
