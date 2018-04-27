@@ -5,20 +5,10 @@
  */
 package PSS;
 
-import java.util.List;
-
 /**
  *
  * @author andre
  */
-public class PSSMain {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        List <Aluno> todosAlunos;
-        
-    }
+public class Aluno extends Pessoa {
     
 }

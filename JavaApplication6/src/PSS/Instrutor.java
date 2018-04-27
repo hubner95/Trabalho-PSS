@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Modelo;
+package PSS;
 
 /**
  *
  * @author andre
  */
-public class Admin {
+public class Instrutor extends Pessoa{
     
 }
