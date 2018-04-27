@@ -5,7 +5,9 @@
  */
 package PSS;
 
-import java.util.List;
+import Controlador.ControladorTurma;
+import Visao.VisaoTurma;
+
 
 /**
  *
@@ -17,8 +19,10 @@ public class PSSMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        List <Aluno> todosAlunos;
         
+        Controlador.ControladorTurma controlador = new ControladorTurma();
+        Visao.VisaoTurma visao = new VisaoTurma(controlador);
+        visao.crudTurma();
     }
-    
+
 }

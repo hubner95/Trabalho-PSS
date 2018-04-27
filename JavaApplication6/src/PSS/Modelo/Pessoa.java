@@ -3,29 +3,33 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PSS;
+package PSS.Modelo;
 
 /**
  *
  * @author andre
  */
 public abstract class Pessoa {
-    private int Id;
-    private String Nome;
+    private int id;
+    private String nome;
     private String CPF;
-    private String Endereco;
+    private String endereco;
+
+    public void setId(int id) {
+        this.id = id;
+    }
     private String telefone;
 
     public int getId() {
-        return Id;
+        return id;
     }
 
     public String getNome() {
-        return Nome;
+        return nome;
     }
 
     public void setNome(String Nome) {
-        this.Nome = Nome;
+        this.nome = Nome;
     }
 
     public String getCPF() {
@@ -37,11 +41,11 @@ public abstract class Pessoa {
     }
 
     public String getEndereco() {
-        return Endereco;
+        return endereco;
     }
 
     public void setEndereco(String Endereco) {
-        this.Endereco = Endereco;
+        this.endereco = Endereco;
     }
 
     public String getTelefone() {

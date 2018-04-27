@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PSS;
+package PSS.Modelo;
 
 /**
  *
  * @author andre
  */
-public class Instrutor extends Pessoa{
+public class Funcionario extends Pessoa{
     
+    public Turma cadastrarTurma(){
+        Turma turma = new Turma();
+        return turma;
+    }
 }
