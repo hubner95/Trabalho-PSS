@@ -5,6 +5,9 @@
  */
 package trabalhopss;
 
+import Controlador.ControladorMensalidade;
+import Visao.VisaoMensalidade;
+
 /**
  *
  * @author leo
@@ -15,7 +18,9 @@ public class TrabalhoPss {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("TESTE");
+        Controlador.ControladorMensalidade controlador = new ControladorMensalidade();
+        Visao.VisaoMensalidade visao = new VisaoMensalidade(controlador);
+        visao.crudMensalidade();
     }
     
 }
